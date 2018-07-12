@@ -1,0 +1,11 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Recipe project files
+web/config.ini.php
+web/vendor
+web/todoitems.txt
+web/composer.phar

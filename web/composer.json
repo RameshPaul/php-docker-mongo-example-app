@@ -1,0 +1,29 @@
+{
+  "name": "root/Recipe-HelloFresh",
+  "description": "Recipe for HelloFresh",
+  "type": "project",
+  "autoload": {
+    "classmap": [
+      "app"
+    ],
+    "psr-4": {
+      "PhpUnitTest\\": "tests"
+    }
+  },
+  "require": {
+    "nikic/fast-route": "^1.3",
+    "vlucas/valitron": "^1.4"
+  },
+  "authors": [
+    {
+      "name": "Ramesh Babu",
+      "email": "chrb.rameshbabu@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "guzzlehttp/guzzle": "^6.2",
+    "php-http/curl-client": "^1.6",
+    "guzzlehttp/psr7": "^1.3",
+    "phpunit/phpunit": "^7.1"
+  }
+}
